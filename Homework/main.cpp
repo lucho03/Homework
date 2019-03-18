@@ -9,7 +9,7 @@ int main()
 
 double square_root(double n, int s)
 {
-    double p = n, x, u;
+    double p = n, u;
     u = (p + n/p) / 2;
     for (int i = 1; i < s; i++){
         u = (u + n/u) / 2;
